@@ -6,6 +6,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -53,9 +54,9 @@ export default function Home() {
           title="Tokenomics"
           description="Here’s a quick snapshot of MEME token distribution"
           kpiItems={[
-            { value: "1B", description: "Total Supply", longDescription: "Total number of tokens available for circulation.", icon: { icon: ArrowRight } },
-            { value: "50%", description: "Market Cap", longDescription: "Our existing capital available in the cryptocurrency market.", icon: { icon: ArrowRight } },
-            { value: "20%", description: "Liquidity", longDescription: "Percentage held for market flexibility and stability.", icon: { icon: ArrowRight } }
+            { value: "1B", description: "Total Supply", longDescription: "Total number of tokens available for circulation.", icon: ArrowRight },
+            { value: "50%", description: "Market Cap", longDescription: "Our existing capital available in the cryptocurrency market.", icon: ArrowRight },
+            { value: "20%", description: "Liquidity", longDescription: "Percentage held for market flexibility and stability.", icon: ArrowRight }
           ]}
         />
       </div>
