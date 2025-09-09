@@ -53,9 +53,9 @@ export default function Home() {
           title="Tokenomics"
           description="Here’s a quick snapshot of MEME token distribution"
           kpiItems={[
-            { value: "1B", description: "Total Supply", longDescription: "Total number of tokens available for circulation.", icon: { icon: 'LucideIcon' } },
-            { value: "50%", description: "Market Cap", longDescription: "Our existing capital available in the cryptocurrency market.", icon: { icon: 'LucideIcon' } },
-            { value: "20%", description: "Liquidity", longDescription: "Percentage held for market flexibility and stability.", icon: { icon: 'LucideIcon' } }
+            { value: "1B", description: "Total Supply", longDescription: "Total number of tokens available for circulation.", icon: { icon: ArrowRight } },
+            { value: "50%", description: "Market Cap", longDescription: "Our existing capital available in the cryptocurrency market.", icon: { icon: ArrowRight } },
+            { value: "20%", description: "Liquidity", longDescription: "Percentage held for market flexibility and stability.", icon: { icon: ArrowRight } }
           ]}
         />
       </div>
